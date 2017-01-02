@@ -13,10 +13,9 @@ public class FactorialIteration implements Runnable{
         return time;
     }
     
-    FactorialIteration(long n){
+    public FactorialIteration(long n){
         this.n = n;
     }
-    
     
     @Override
     public void run() {

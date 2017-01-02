@@ -14,11 +14,11 @@ public class FactorialRecursion implements Runnable {
         return time;
     }
         
-    FactorialRecursion(long n){
+    public FactorialRecursion(long n){
         this.n = n;
     }
 
-    private  long Recursion(long x) {
+    public long Recursion(long x) {
         if (x == 0) {
             return 1;
         } else {
